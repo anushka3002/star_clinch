@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <>
+    <div className='tracking-wide'>
     <div className='bg-black p-4'>
     <div className='p-[27.2px]'>
     <p className='text-[white] text-[30px] font-medium text-center'>6000+ Users trust StarClinch.</p>
@@ -68,7 +68,7 @@ const Footer = () => {
       <span>@ Copyright 2015-2023 | </span><span className='text-[#41c1a9]'>VINSM Globe Pvt Ltd</span><span> | All Rights Reserved.</span>
     </div>
     </div>
-    </>
+    </div>
   )
 }
 

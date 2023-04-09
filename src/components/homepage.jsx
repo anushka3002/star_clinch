@@ -22,7 +22,7 @@ const Homepage = () => {
     };
 
   return (
-    <div>
+    <div className='tracking-wide'>
         {/* navbar */}
         <div className='h-[70px] bg-black '>
             <div className='flex justify-between pl-2 pr-4  my-auto h-full'>
@@ -30,7 +30,7 @@ const Homepage = () => {
             <p className='text-[white] my-auto'>Hello, Manish</p></div>
         </div>
         {/* shortlist details */}
-        <div>
+        <div className='font-roboto'>
             <p className='text-[40px] font-bold ml-2 mt-2'>Shortlist</p>
             <p className='ml-2 text-[20px] text-[grey]'>Details :</p>
         </div>
@@ -44,7 +44,7 @@ const Homepage = () => {
                 <p className='text-[18px]'>Delhi, India</p>
             </div>
         </div>
-        <p className='mt-2 text-[25px] font-medium text-center'>Budget</p>
+        <p className='mt-2 text-[25px] font-medium text-center tracking-wide'>Budget</p>
         <div className='flex flex-col items-center justify-center'><button className='bg-black rounded-[7px] text-[25px] mt-1 font-bold px-3 py-2 text-[white] mx-auto'>₹500,000</button></div>
         <p className='text-[40px] font-bold ml-2 mt-2 text-center'>Singers</p>
         <div className='text-center text-[18px]'><p>Select an artist that</p><p>matches your vibe</p></div>
