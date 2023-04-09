@@ -33,29 +33,29 @@ const Footer = () => {
     </div>
     <div className='flex justify-between mt-[32px] text-[#41c1a9]'>
       <div>
-        <p className='text-[15px] font-medium text-black'>FOR BUYERS</p>
+        <p className='text-[20px] font-medium text-black'>FOR BUYERS</p>
         <p>Our Buyers</p>
         <p>Browse</p>
         <p>Post Your Requirement</p>
         <p>Entertainment on EMI</p>
-        <p className='text-[15px] font-medium text-black mt-3'>ABOUT US</p>
+        <p className='text-[20px] font-medium text-black mt-3'>ABOUT US</p>
         <p>Our Story</p>
         <p>Careers</p>
       </div>
       <div>
-        <p className='text-[15px] font-medium text-black'>FOR BUYERS</p>
+        <p className='text-[20px] font-medium text-black'>FOR BUYERS</p>
         <p>Our Buyers</p>
         <p>Browse</p>
         <p>Post Your Requirement</p>
         <p>Entertainment on EMI</p>
-        <p className='text-[15px] font-medium text-black mt-3'>ABOUT US</p>
+        <p className='text-[20px] font-medium text-black mt-3'>ABOUT US</p>
         <p>Our Story</p>
         <p>Careers</p>
       </div>
     </div>
     <div className='mt-3'>
-      <p className='font-medium'>REGISTERED OFFICE</p>
-      <p className='font-medium'>ADDRESS :</p>
+      <p className='font-medium text-[20px]'>REGISTERED OFFICE</p>
+      <p className='font-medium text-[20px]'>ADDRESS :</p>
       <p>VINSM Globe Private Limited</p>
       <p>Percept House, Ground Floor</p>
       <p>East of Kailash, New Delhi</p>
@@ -64,8 +64,8 @@ const Footer = () => {
       <p className='text-[#41c1a9] mt-1'>Contact Us</p>
     </div>
     <img className='mt-16 mx-auto' src="/visa.png"></img>
-    <div className='flex text-[10px] text-center mx-auto items-center flex-row justify-center'>
-      <span>@Copyright 2015-2023 | </span><span className='text-[#41c1a9]'>VINSM Globe Pvt Ltd</span><span> | All Rights Reserved.</span>
+    <div className='text-[15px] text-center mx-auto items-center justify-center mb-4'>
+      <span>@ Copyright 2015-2023 | </span><span className='text-[#41c1a9]'>VINSM Globe Pvt Ltd</span><span> | All Rights Reserved.</span>
     </div>
     </div>
     </>
