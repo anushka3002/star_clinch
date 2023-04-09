@@ -37,11 +37,11 @@ const Homepage = () => {
         <div className='flex flex-wrap justify-between px-6 pt-1'>
             <span className='text-center'>
                 <p className='text-[30px] font-medium'>Event Date</p>
-                <p className='text-[20px]'>2023-02-22</p>
+                <p className='text-[18px]'>2023-02-22</p>
             </span>
             <div>
                 <p className='text-[30px] font-medium'>Location</p>
-                <p className='text-[20px]'>Delhi, India</p>
+                <p className='text-[18px]'>Delhi, India</p>
             </div>
         </div>
         <p className='mt-2 text-[25px] font-medium text-center'>Budget</p>
